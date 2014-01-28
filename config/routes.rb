@@ -6,6 +6,7 @@ SampleApp::Application.routes.draw do
   
   root  'static_pages#home'
   
+  match '/users',  to: 'users#index',           via: 'get'
   match '/signup',  to: 'users#new',            via: 'get'
   match '/signin',  to: 'sessions#new',         via: 'get'
   match '/signout', to: 'sessions#destroy',     via: 'delete'
