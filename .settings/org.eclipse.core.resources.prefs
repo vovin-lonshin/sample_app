@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//app/views/microposts/_micropost.html.erb=UTF-8
+encoding//app/views/shared/_feed.html.erb=UTF-8
+encoding//app/views/shared/_feed_item.html.erb=UTF-8
+encoding//app/views/shared/_micropost_form.html.erb=UTF-8
+encoding//app/views/shared/_user_info.html.erb=UTF-8
